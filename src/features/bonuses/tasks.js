@@ -1,0 +1,46 @@
+export const TASKS = [
+  {
+    id: 'tg_channel',
+    title: 'Подпишись на Telegram-канал',
+    description: 'Новости, дропы, эксклюзивные кейсы',
+    reward: 300,
+    icon: '📢',
+    link: 'https://t.me/dripcases', // ← ЗАМЕНИ НА СВОЙ КАНАЛ
+    actionLabel: 'Подписаться',
+    verifyLabel: 'Я подписался',
+    cooldownHours: 0, // разово
+  },
+  {
+    id: 'first_sale',
+    title: 'Продай первую вещь',
+    description: 'Крути кейс и продай выпавшую вещь',
+    reward: 150,
+    icon: '💰',
+    link: null,
+    actionLabel: null,
+    verifyLabel: 'Получить',
+    cooldownHours: 0,
+  },
+  {
+    id: 'daily_login',
+    title: 'Ежедневный вход',
+    description: 'Заходи каждый день и получай бонус',
+    reward: 50,
+    icon: '📅',
+    link: null,
+    actionLabel: null,
+    verifyLabel: 'Забрать',
+    cooldownHours: 24,
+  },
+  {
+    id: 'invite_friend',
+    title: 'Пригласи друга',
+    description: 'Отправь ссылку — друг зарегается, ты получишь бонус',
+    reward: 500,
+    icon: '👥',
+    link: null,
+    actionLabel: 'Скопировать ссылку',
+    verifyLabel: 'Проверить',
+    cooldownHours: 0,
+  },
+]
